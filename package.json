@@ -1,0 +1,50 @@
+{
+  "version": "0.0.1",
+  "name": "react-personal-resume",
+  "title": "React Personal Resume",
+  "description": "React Personal Resume",
+  "author": "Alvear Candia, Cristopher Alejandro <calvear93@gmail.com>",
+  "private": false,
+  "keywords": [
+    "react"
+  ],
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsdoc": "^35.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-radar": "^0.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "node-sass": "^6.0.0",
+    "prettier-stylelint": "^0.4.2",
+    "react-scripts": "^4.0.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie <= 8"
+    ]
+  }
+}
