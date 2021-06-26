@@ -6,10 +6,13 @@
   "author": "Alvear Candia, Cristopher Alejandro <calvear93@gmail.com>",
   "private": false,
   "keywords": [
-    "react"
+    "cv",
+    "react",
+    "resume"
   ],
   "dependencies": {
     "@mdi/font": "^5.9.55",
+    "env-cmd": "^10.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -31,8 +34,8 @@
     "stylelint-scss": "^3.19.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "env-cmd react-scripts start",
+    "build": "env-cmd react-scripts build"
   },
   "browserslist": {
     "development": [

@@ -1,8 +1,9 @@
-import 'styles/app.scss';
+import 'styles/main.scss';
+import { Document } from 'components/document';
 
-export const Main = () =>
+export default () =>
 {
     return (
-        <b>hola</b>
+        <Document />
     );
 };
